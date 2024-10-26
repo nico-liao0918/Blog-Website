@@ -1,0 +1,59 @@
+/* global css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+.header {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.ham nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ham nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.ham nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.intro {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.foot {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
